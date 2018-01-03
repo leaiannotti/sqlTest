@@ -15,6 +15,6 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	SELECT top 100 * from dbo.Customers  
+	SELECT top 1000 * from dbo.Customers  
 END
 GO
